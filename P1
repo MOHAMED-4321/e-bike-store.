@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Bike Store</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <h1>E-Bike Store</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h2>Discover the Best Electric Bikes</h2>
+        <p>Experience the future of commuting with our latest models.</p>
+        <a href="shop.html" class="btn">Shop Now</a>
+    </section>
+
+    <section class="featured-products">
+        <h3>Featured Bikes</h3>
+        <div class="product-grid">
+            <div class="product">
+                <img src="bike1.jpg" alt="Bike 1">
+                <h4>Model X</h4>
+                <p>$1500</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="bike2.jpg" alt="Bike 2">
+                <h4>Model Y</h4>
+                <p>$2000</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="bike3.jpg" alt="Bike 3">
+                <h4>Model Z</h4>
+                <p>$2500</p>
+                <button>Add to Cart</button>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 E-Bike Store. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
